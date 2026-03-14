@@ -37,13 +37,17 @@ AI-ML-Project
 │   ├── model.py         # Model loading + prediction logic
 │   ├── schemas.py       # Pydantic request/response models
 │
+├── notebooks/
+│   ├── model_building.ipynb         # Experimentation: preprocessing, TF-IDF, model training
+│   └── prediction_pipeline.ipynb    # End-to-end inference pipeline demonstration
+│
 ├── static/
 │   └── model/
-│       ├── model.pickle
-│       ├── tfidf_vectorizer.pickle
-│       └── vocabulary.txt
+│       ├── model.pickle             # Tuned Logistic Regression model
+│       ├── tfidf_vectorizer.pickle  # TF-IDF vectorizer
+│       └── vocabulary.txt           # Filtered vocabulary tokens
 │
-├── train.py             # Training script
+├── train.py             # training script 
 ├── requirements.txt     # Project dependencies
 └── README.md
 ```
