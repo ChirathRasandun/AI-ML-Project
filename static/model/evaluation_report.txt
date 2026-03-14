@@ -1,0 +1,26 @@
+SENTIMENT ANALYSIS MODEL EVALUATION REPORT
+==================================================
+
+Dataset: IMDb Movie Reviews
+Training samples: 39665
+Test samples: 9917
+Vocabulary size: 14378
+
+Best Model: Logistic Regression
+Best Parameters: {'C': 1, 'max_iter': 100, 'solver': 'liblinear'}
+
+Test Accuracy: 88.82%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    negative       0.90      0.87      0.89      4939
+    positive       0.88      0.91      0.89      4978
+
+    accuracy                           0.89      9917
+   macro avg       0.89      0.89      0.89      9917
+weighted avg       0.89      0.89      0.89      9917
+
+Confusion Matrix:
+[[4299  640]
+ [ 469 4509]]
