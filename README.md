@@ -63,7 +63,7 @@ Follow the steps below to run the API locally.
 This project requires:
 
 ```
-Python 3.9 or higher
+Python 3.10 or higher
 ```
 
 ---
